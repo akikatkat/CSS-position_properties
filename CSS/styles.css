@@ -9,8 +9,9 @@ ACCENT3: #E3F6FF
 
 
 :root{
-    --primary: #2035ff;
-    --secondary: #FFEA20;
+    /* --testcolor: green; */
+    --primary: #692a6e;
+    --secondary: #ecb372;
     --accent1: #8DCBE6;
     --accent2: #9DF1DF;
     --accent3: #E3F6FF;
@@ -26,8 +27,54 @@ body{
 
 .container{
     height: 50vh;
-    width: 100%;
+    width: auto;
     background-color: var(--secondary);
     margin: 0 auto;
+    color: var(--accent3);
+    padding: 2%;
+    border: 10px solid black;
+        /* background-color: var(--testcolor); */
+    /* position: relative; */
+}
 
+.container .box{
+    width: 50%;
+    /* margin: 0 auto; */
+}
+
+/* .box{
+    margin: 0 auto;
+} */
+
+.box1{
+     /* margin: 0 auto; */
+    background-color: red;
+    position: static;
+    top: 5px;
+}
+
+.box2{
+    background-color: green;
+    position: relative;
+}
+
+.box3{
+    background-color: skyblue;
+     /* position: fixed; */
+     top: 0;
+}
+
+.box4{
+    background-color: rgb(55, 0, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+}
+
+.box5{
+    background-color: palevioletred;
+    position: sticky;
+    top: 5px;
+    left: 10px;
 }
