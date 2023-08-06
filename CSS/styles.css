@@ -1,0 +1,33 @@
+/* 
+PRIMARY: #2035ff
+SECONDARY: #FFEA20
+ACCENT1: #8DCBE6
+ACCENT2: #9DF1DF
+ACCENT3: #E3F6FF 
+*/
+
+
+
+:root{
+    --primary: #2035ff;
+    --secondary: #FFEA20;
+    --accent1: #8DCBE6;
+    --accent2: #9DF1DF;
+    --accent3: #E3F6FF;
+}
+
+
+body{
+    font-family:'Poppins', sans-serif;
+    background-color: var(--primary);
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.container{
+    height: 50vh;
+    width: 100%;
+    background-color: var(--secondary);
+    margin: 0 auto;
+
+}
