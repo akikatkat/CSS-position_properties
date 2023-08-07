@@ -10,7 +10,7 @@ ACCENT3: #E3F6FF
 
 :root{
     /* --testcolor: green; */
-    --primary: #692a6e;
+    --primary: #c895cc;
     --secondary: #ecb372;
     --accent1: #8DCBE6;
     --accent2: #9DF1DF;
@@ -27,7 +27,7 @@ body{
 
 .container{
     height: 50vh;
-    width: auto;
+    width: 50%;
     background-color: var(--secondary);
     margin: 0 auto;
     color: var(--accent3);
@@ -39,7 +39,7 @@ body{
 
 .container .box{
     width: 50%;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 /* .box{
@@ -48,7 +48,7 @@ body{
 
 .box1{
      /* margin: 0 auto; */
-    background-color: red;
+    background-color: rgb(221, 30, 30);
     position: static;
     top: 5px;
 }
@@ -59,9 +59,9 @@ body{
 }
 
 .box3{
-    background-color: skyblue;
-     /* position: fixed; */
-     top: 0;
+    background-color: rgb(0, 183, 255);
+    /* position: fixed;  */
+    top: 0;
 }
 
 .box4{
@@ -73,7 +73,7 @@ body{
 }
 
 .box5{
-    background-color: palevioletred;
+    background-color: rgb(226, 82, 130);
     position: sticky;
     top: 5px;
     left: 10px;
